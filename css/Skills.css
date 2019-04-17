@@ -1,0 +1,45 @@
+.description-skills{
+    margin-left: 5%;
+    margin-right: 0;
+    width: 90%;
+}
+.description-skills h2{
+    text-align: center;
+    margin-bottom: 0 ;
+    font-size: 200%;
+}
+.description-skills ul{
+
+
+    display: flex;
+    justify-content: space-between;
+    height: 5px;
+    margin: 0;
+    padding: 15px;
+    list-style: none;
+    background: #fff;
+    border-radius: 2px;
+
+
+}
+.target li {
+    width: 25px;
+    height: 25px;
+    font-size: 0;
+    background-color: #006cb4;
+
+    border-radius: 50%;
+}
+
+.description-skills div:nth-child(1) .target li:nth-child(n+7) {
+    background-color: rgb(231,231,231);
+}
+.description-skills div:nth-child(2) .target li:nth-child(n+8) {
+    background-color: rgb(231,231,231);
+}
+.description-skills div:nth-child(3) .target li:nth-child(n+5) {
+    background-color: rgb(231,231,231);
+}
+.description-skills div:nth-child(4) .target li:nth-child(n+9) {
+    background-color: rgb(231,231,231);
+}

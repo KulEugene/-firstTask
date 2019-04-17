@@ -1,0 +1,24 @@
+
+
+.description-Contact {
+    width: 100%;
+
+}
+
+.information tr td{
+    font-size: 150%;
+padding: 20px 1px;
+
+}
+
+.information tr td:nth-child(2){
+    font-size: 150%;
+    padding-left: 0;
+
+
+}
+.information tr td:first-child{
+    width: 50%;
+    color: #0270ba;
+    font-weight:bold
+}

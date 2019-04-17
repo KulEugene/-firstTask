@@ -1,0 +1,75 @@
+.body{
+}
+
+#circle {
+    width: 250px;
+    height: 250px;
+    -webkit-border-radius: 125px;
+    -moz-border-radius: 125px;
+    border-radius: 125px;
+    background: #0270ba;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main{
+    height: 1920px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.Block {
+    margin-left: 70px;
+    margin-top: 52px;
+    min-width: 320px;
+    width: 30%;
+    outline-offset: -1px;
+}
+
+
+.TopBlock{
+
+    color: #0270ba;
+    display: inline-block;
+    width: 100%;
+    clear: both;
+}
+.TopBlock  img{
+    display: block;
+    width: 120px;
+    max-width:100% ;
+    float: left;
+    vertical-align:middle;
+}
+
+.TopBlock  h1{
+    margin-left: 5px;
+    display: block;
+    vertical-align:middle;
+    font-size: 300%;
+    float: left;
+}
+.TopBlock div {
+
+    margin-top: 53px;
+    min-width: 300px;
+    vertical-align:middle;
+    display: block;
+
+}
+.TopBlock div hr{
+    margin-left: 10px;
+
+}
+
+.Block:nth-child(n+6) {
+    margin-left: 10px;
+    margin-top: 52px;
+    min-width: 320px;
+    width: 50%;
+
+
+    outline-offset: -1px;
+}
